@@ -1,8 +1,8 @@
 # Fight Recognition Using 3D ResNet
 
-Using pre-trained models from [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch/blob/master/main.py) and training them on [Surveillance Camera Fight Dataset](https://github.com/sayibet/fight-detection-surv-dataset)
+Using pre-trained models from [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) and training them on [Surveillance Camera Fight Dataset](https://github.com/sayibet/fight-detection-surv-dataset)
 
-### Surveillance Camera Fight Dataset
+### Surveillance Camera Fight Dataset ([Link](https://github.com/sayibet/fight-detection-surv-dataset))
 * There are 300 videos in total as 150 fight + 150 non-fight
 * Videos are 2-second long
 * Only the fight related parts are included in the samples
@@ -19,7 +19,9 @@ Using pre-trained models from [3D-ResNets-PyTorch](https://github.com/kenshohara
 
 ### How to run it
 
-First download the folder contianing from Google drive
+**First** download prerequisite files from [Google drive](https://drive.google.com/drive/folders/1WjIz8hxNFJ8o88f0j7zgecP69w7ks4U2?usp=sharing)
+
+**Then**
 
 1. Go to [Google Colab](https://colab.research.google.com) and sign in
 2. Open "*Open Notebook*" then go to "*GitHub*" tab and then search för "*Linkanblomman*" and choose repository "*Linkanblomman/Fight_recognition*"
@@ -28,4 +30,7 @@ First download the folder contianing from Google drive
 **Or**
 
 1. Choose a notebook from Github
-2. Press the "*Open in Colab*" button
+2. Press the ![Colab button](/images/colab_button.jpg) button then run it
+
+---
+For more pre-trained models go to [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) and then download from [Google Drive](https://drive.google.com/drive/folders/1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4)
