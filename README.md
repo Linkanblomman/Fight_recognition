@@ -22,9 +22,22 @@ Project results using 3D ResNet-50
 
 ### How to run it
 
-**First** download prerequisite files from [Google drive](https://drive.google.com/drive/folders/1WjIz8hxNFJ8o88f0j7zgecP69w7ks4U2?usp=sharing)
+**Folder structure** 
 
-**Then**
+```misc
+fight_recognition
+    │
+    ├── input
+    │   ├── test_data
+    │   └── video_data
+    │       ├── fight (directory of fight video files)
+    │       └── nofight (directory of nofight video files)
+    ├── outputs
+    │   └── model_prediction_on_video
+    └── pretrained_models (directory of pre-trained models)
+```
+
+**Run code**
 
 1. Go to [Google Colab](https://colab.research.google.com) and sign in
 2. Open "*Open Notebook*" then go to "*GitHub*" tab and then search för "*Linkanblomman*" and choose repository "*Linkanblomman/Fight_recognition*"
