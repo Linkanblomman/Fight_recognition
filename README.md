@@ -38,5 +38,7 @@ Project results using 3D ResNet-50
 **NOTE!** 
 In order to access downloaded [prerequisite files](https://drive.google.com/drive/folders/1WjIz8hxNFJ8o88f0j7zgecP69w7ks4U2?usp=sharing), Google drive need to be mounted ("*Mount Drive*") in Colab. Also the path to the downloaded files need to be changed for each Colab notebook (current example path in colab notebooks: "/content/drive/My Drive/Colab_Notebooks/fight_recognition/")
 
+**GPU usage** (change CPU to GPU): Runtime -> Change runtime type -> Hardware accelerator -> GPU
+
 ---
 For more pre-trained models go to [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) and then download from [Google Drive](https://drive.google.com/drive/folders/1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4)
