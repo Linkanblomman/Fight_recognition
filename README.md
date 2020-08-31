@@ -54,4 +54,4 @@ In order to access downloaded data in **Folder structure**, *Google Drive* need 
 **GPU usage** (change CPU to GPU): Runtime -> Change runtime type -> Hardware accelerator -> GPU
 
 ---
-For more pre-trained models go to [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) and then download from [Google Drive](https://drive.google.com/drive/folders/1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4)
+For more pre-trained models go to [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) and then download from *Pre-trained models* section ([Direct Google Drive link](https://drive.google.com/drive/folders/1xbYbZ7rpyjftI_KCk6YuL-XrfQDz7Yd4))
