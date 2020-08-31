@@ -12,7 +12,7 @@ Using pre-trained models from [3D-ResNets-PyTorch](https://github.com/kenshohara
 ---
 
 ## Results
-Project results using 3D ResNet-50 
+Project results using 3D ResNet-50 ([fight_reco_3DCNNmodel.pth](https://drive.google.com/drive/folders/1WjIz8hxNFJ8o88f0j7zgecP69w7ks4U2?usp=sharing))
 
 ![Fight gif](/images/2f63530274bc.gif)
 ![noFight gif](/images/b99cfe94b103.gif)
@@ -33,7 +33,8 @@ fight_recognition
     │       ├── fight (directory of fight video files)
     │       └── nofight (directory of nofight video files)
     ├── outputs
-    │   └── model_prediction_on_video
+    │   ├── model_prediction_on_video
+    │   └── snapshots
     └── pretrained_models (directory of pre-trained models)
 ```
 
