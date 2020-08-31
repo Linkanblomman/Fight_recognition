@@ -10,7 +10,9 @@ Using pre-trained models from [3D-ResNets-PyTorch](https://github.com/kenshohara
 
 ---
 
-### Results from 3D ResNet-50
+### Results
+Project results using 3D ResNet-50 
+
 ![Fight gif](/images/2f63530274bc.gif)
 ![noFight gif](/images/b99cfe94b103.gif)
 ![Fight gif](/images/3e953519843e.gif)
