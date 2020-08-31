@@ -49,7 +49,7 @@ fight_recognition
 2. Press the ![Colab button](/images/colab_button.jpg) button then run it
 
 **NOTE!** 
-In order to access downloaded [prerequisite files](https://drive.google.com/drive/folders/1WjIz8hxNFJ8o88f0j7zgecP69w7ks4U2?usp=sharing), Google drive need to be mounted ("*Mount Drive*") in Colab. Also the path to the downloaded files need to be changed for each Colab notebook (current example path in colab notebooks: "/content/drive/My Drive/Colab_Notebooks/fight_recognition/")
+In order to access downloaded data in **Folder structure**, *Google Drive* need to be mounted ("*Mount Drive*") in Colab. Also the path to the files need to be changed for each Colab notebook (current example path in colab notebooks: "/content/drive/My Drive/Colab_Notebooks/fight_recognition/")
 
 **GPU usage** (change CPU to GPU): Runtime -> Change runtime type -> Hardware accelerator -> GPU
 
