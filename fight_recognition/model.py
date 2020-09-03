@@ -3,11 +3,25 @@ from torch import nn
 import torch.optim as optim
 import fight_recognition.resnet as resnet
 
-def initialize_model(model_architecture=34, model_dataset='K', num_classes=2):
+def initialize_model(model_architecture=None, model_dataset=None, num_classes=2):
     model = None
     pretained_model = f"./fight_recognition/pretrained_models/r3d{model_architecture}_{model_dataset}_200ep.pth"
     checkpoint = torch.load(pretained_model)
 
+    if model_architecture == 18 and model_dataset == 'K':
+        """ Resnet18
+        """
+        model = resnet.generate_model(model_depth=model_architecture, shortcut_type='B', n_classes=700)
+        model.load_state_dict(checkpoint['state_dict'])
+        num_ftrs = model.fc.in_features
+        model.fc = nn.Linear(num_ftrs, num_classes)
+    elif model_architecture == 18 and model_dataset == 'KM':
+        """ Resnet18
+        """
+        model = resnet.generate_model(model_depth=model_architecture, shortcut_type='B', n_classes=1039)
+        model.load_state_dict(checkpoint['state_dict'])
+        num_ftrs = model.fc.in_features
+        model.fc = nn.Linear(num_ftrs, num_classes)
     if model_architecture == 34 and model_dataset == 'K':
         """ Resnet34
         """
