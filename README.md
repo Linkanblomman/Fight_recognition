@@ -1,4 +1,4 @@
-# Fight Recognition Using 3D ResNet
+# Fight recognition using pre-trainded 3D ResNet implementerad in PyTorch
 
 Using pre-trained models from [3D-ResNets-PyTorch](https://github.com/kenshohara/3D-ResNets-PyTorch) and training them on [Surveillance Camera Fight Dataset](https://github.com/sayibet/fight-detection-surv-dataset)
 
