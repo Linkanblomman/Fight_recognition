@@ -41,7 +41,7 @@ fight_recognition
 **Run code**
 
 1. Go to [Google Colab](https://colab.research.google.com) and sign in
-2. Open "*Open Notebook*" then go to "*GitHub*" tab and then search för "*Linkanblomman*" and choose repository "*Linkanblomman/Fight_recognition*"
+2. Open "*Open Notebook*" then go to "*GitHub*" tab and then search for "*Linkanblomman*" and choose repository "*Linkanblomman/Fight_recognition*"
 3. Pick a notebook and run it
 
 **Or**
